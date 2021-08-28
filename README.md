@@ -11,11 +11,11 @@ Foram criados os projetos através do Spring Initializr:
 
 No IntelliJ os projetos foram importados através do File - New Modules from Existing Sources
 
-#Product-Catalog
+# Product-Catalog
 
-#Shopping-Cart
+# Shopping-Cart
 
-#Config Server
+# Config Server
 Para gerenciar as configurações foi criado o Config Server através do Spring Cloud ConfigServer.
 Foi criado um repositório no GitHub com as configurações dos microsserviços o qual será chamado
 pelo Config Server para a execução dos microsserviços.
@@ -24,7 +24,7 @@ https://github.com/SMCampos/configs-spring-cloud-microservices.git
 Seguindo as boas práticas de microsserviços as configurações foram centralizadas no servidor de
 configurações.
 
-#Service Discovery
+# Service Discovery
 Para gerenciar as chamadas entre microsserviços foi criado o Service Discovery.
 Quando um microsserviço é inicializado ele vai ser registrado no Service Discovery, que verifica
 a porta que o microsserviço vai utilizar.
@@ -32,7 +32,7 @@ Ele faz a verificação de solicitações de um microsserviço com outro evitand
 diretamente ente eles.
 O service discovery faz o load balance.
 
-#Gateway
+# Gateway
 Foi criado o Gateway para interligar o acesso às chamadas dos microsserviços.
 
 
